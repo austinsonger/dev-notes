@@ -2,14 +2,13 @@
 
 SUBJECT: Mint - {{context.rule.severity}} - {{context.rule.name}}
 
-- Event Occurred at {{#context.alerts}}@timestamp{{/context.alerts}}
-
+Event Occurred at {{#context.alerts}}@timestamp{{/context.alerts}}
 
 # Rule Information
 
 **Link to Alerts:** {{{context.results_link}}}
 
-#### Detection Name
+Detection Name
 
 {{context.rule.name}}
 
